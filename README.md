@@ -1,16 +1,16 @@
-Deep Brush: Visualizing Artistic Textures with CNNs
-📌 Project Overview
+### Deep Brush: Visualizing Artistic Textures with CNNs
+## 📌 Project Overview
 Deep Brush is a deep learning model that classifies and visualizes artistic textures, such as brushstrokes, using EfficientNet-B0. This project leverages CNNs to recognize patterns in artistic images and generates Grad-CAM heatmaps to interpret model decisions.
 
-🎯 Objective
+# 🎯 Objective
 Develop a CNN-based model to classify artistic textures.
 
 Improve model interpretability using Grad-CAM overlays.
 
 Optimize training with data augmentation and hyperparameter tuning.
 
-🛠️ Project Setup
-1️⃣ Install Dependencies
+# 🛠️ Project Setup
+## 1️⃣ Install Dependencies
 Ensure you have Python installed and run the following commands in a Jupyter Notebook cell:
 
 python
