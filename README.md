@@ -3,6 +3,7 @@
 Deep Brush is a deep learning model that classifies and visualizes artistic textures, such as brushstrokes, using EfficientNet-B0. This project leverages CNNs to recognize patterns in artistic images and generates Grad-CAM heatmaps to interpret model decisions.
 
 ## 🎯 Objective
+
 Develop a CNN-based model to classify artistic textures.
 
 Improve model interpretability using Grad-CAM overlays.
@@ -13,32 +14,14 @@ Optimize training with data augmentation and hyperparameter tuning.
 ### 1️⃣ Install Dependencies
 Ensure you have Python installed and run the following commands in a Jupyter Notebook cell:
 
-python
-Copy
-Edit
+
 !pip install torch torchvision torchaudio
 !pip install matplotlib numpy tqdm
 !pip install opencv-python
-### 2️⃣ Clone the Repository (Optional)
-If the project is hosted on GitHub, clone it:
 
-bash
-Copy
-Edit
-git clone https://github.com/Siva24081994/Deep-Brush-Visualizing-Artistic-Textures-with-CNNs.git
-cd Deep-Brush-Visualizing-Artistic-Textures-with-CNNs
-Otherwise, directly open the Jupyter Notebook (.ipynb).
-
-### 3️⃣ Open the Jupyter Notebook
-If you are running it locally, navigate to the project folder and launch Jupyter:
-
-bash
-Copy
-Edit
-jupyter notebook
-Then, open the Deep_Brush_CNN.ipynb file.
 
 ## 📊 Project Workflow
+
 ### 1️⃣ Dataset Preparation
 Loaded 20+ artistic images provided by the company.
 
@@ -68,6 +51,7 @@ Evaluated on a validation set, achieving:
 ✅ Training Accuracy: 92.86%
 ✅ Validation Accuracy: 80%
 ✅ F1 Score: 0.8
+
 ![image](https://github.com/user-attachments/assets/5165f669-9686-4ff4-8e57-7848948ebe52)
 
 Visualized Grad-CAM overlays to interpret how the model identifies artistic textures.
@@ -79,12 +63,14 @@ The validation accuracy stabilized at 80%, suggesting potential overfitting.
 
 Grad-CAM heatmaps provided meaningful insights into how the model detected brushstrokes.
 
+
 ## 🔄 Future Improvements
 🔹 Fine-tune hyperparameters to push validation accuracy beyond 80%.
 🔹 Enhance data augmentation techniques for better model generalization.
 🔹 Test alternative architectures (e.g., ResNet-50, Vision Transformer).
 
 ## 🖼️ Sample Grad-CAM Visualizations
+
 ![image](https://github.com/user-attachments/assets/4755e7aa-07a9-4519-8bd8-653cb003a973)
 
 
